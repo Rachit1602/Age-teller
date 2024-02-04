@@ -1,0 +1,58 @@
+body{
+    height: 48.7rem;
+}
+#root{
+    height: 100%;
+    background: linear-gradient(276deg, rgb(45, 1, 157) 11%, rgba(12,7,61,1) 54%, rgb(10, 1, 44) 74%);
+}
+.App{
+    text-align: center;
+    padding: 10%;
+    font-size: 16px;
+    height: inherit;
+}
+.form-control{
+    display: inline-block;
+    max-width: 20rem;
+}
+.title{
+    font-size: 3rem;
+    padding: 0;
+    display: inline-block;
+
+}
+.text-light{
+    color: aliceblue;
+}
+.mb-1{
+    margin-bottom: 1rem!important;
+}
+.container{
+    position: relative;
+    top: 10rem;
+    box-shadow: 0 0 10px rgb(116, 116, 116);
+    border-radius: 5px;
+    max-width: fit-content;
+    margin: 0 auto;
+    padding: 2rem;
+    background: rgb(43, 1, 83);
+    max-width: 500px;
+}
+.fade2s{
+    animation: fade-in 2s ease-in 0.25s ;
+}
+/* .age-stats{
+    opacity: 100;
+} */
+@keyframes fade-in {
+    from{
+        opacity:0
+    }to{
+        opacity: 100;
+    }
+}
+@media screen and (min-width:800px) {
+    .container{
+        top:7rem;
+    }
+}
